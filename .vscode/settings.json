@@ -1,0 +1,11 @@
+﻿{
+    "files.exclude":
+    {
+        "Library/":true,
+        "library/":true,
+        "obj/":true,
+        "Obj/":true,
+        "temp/":true,
+        "Temp/":true
+    }
+}
