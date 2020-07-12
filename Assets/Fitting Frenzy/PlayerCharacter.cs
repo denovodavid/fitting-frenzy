@@ -7,6 +7,7 @@ public class PlayerCharacter : MonoBehaviour
     public FloatReference speed;
     public FloatReference dashDistance;
     public FloatReference dashDuration;
+    public FloatReference controlMeter;
 
     Rigidbody2D rb;
 
@@ -35,6 +36,8 @@ public class PlayerCharacter : MonoBehaviour
             rb.MovePosition(targetPos);
             dashTime += (1f / dashDuration) * Time.deltaTime;
         }
+
+        controlMeter.Value -= Time.deltaTime;
     }
 
     public void OnMove(InputValue value)

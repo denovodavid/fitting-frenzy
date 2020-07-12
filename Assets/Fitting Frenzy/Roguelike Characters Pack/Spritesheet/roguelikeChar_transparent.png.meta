@@ -4,196 +4,196 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7117352459926733294
-    second: roguelikeChar_transparent_0
+    second: body_00
   - first:
       213: -4594815229075491804
-    second: roguelikeChar_transparent_1
+    second: body_01
   - first:
       213: 3159422829882685646
-    second: roguelikeChar_transparent_2
+    second: pants_00
   - first:
       213: 4603628239155966001
-    second: roguelikeChar_transparent_3
+    second: shoes_00
   - first:
       213: -7590407004110943118
-    second: roguelikeChar_transparent_4
+    second: top_000
   - first:
       213: 6081339071543490551
-    second: roguelikeChar_transparent_5
+    second: top_001
   - first:
       213: 9150770923974772817
-    second: roguelikeChar_transparent_6
+    second: top_002
   - first:
       213: 5788763161344567183
-    second: roguelikeChar_transparent_7
+    second: top_003
   - first:
       213: 7651860677378353716
-    second: roguelikeChar_transparent_8
+    second: top_004
   - first:
       213: -6354797106187189164
-    second: roguelikeChar_transparent_9
+    second: top_005
   - first:
       213: -6969585839208715986
-    second: roguelikeChar_transparent_10
+    second: top_006
   - first:
       213: -319352949633144260
-    second: roguelikeChar_transparent_11
+    second: top_007
   - first:
       213: 6293024272638629757
-    second: roguelikeChar_transparent_12
+    second: top_008
   - first:
       213: 7612872228209372467
-    second: roguelikeChar_transparent_13
+    second: top_009
   - first:
       213: -7911691683452094547
-    second: roguelikeChar_transparent_14
+    second: top_010
   - first:
       213: -1819106616914574489
-    second: roguelikeChar_transparent_15
+    second: top_011
   - first:
       213: 4309011525524865823
-    second: roguelikeChar_transparent_16
+    second: hair_00
   - first:
       213: -2920421441877121673
-    second: roguelikeChar_transparent_17
+    second: hair_01
   - first:
       213: 3082253163282208733
-    second: roguelikeChar_transparent_18
+    second: hair_02
   - first:
       213: 6272190499121955713
-    second: roguelikeChar_transparent_19
+    second: hair_03
   - first:
       213: 7683005364224651133
-    second: roguelikeChar_transparent_20
+    second: hair_04
   - first:
       213: -1768008167086987154
-    second: roguelikeChar_transparent_21
+    second: hair_05
   - first:
       213: -4103143877950815595
-    second: roguelikeChar_transparent_22
+    second: hair_06
   - first:
       213: 8809339333625427106
-    second: roguelikeChar_transparent_23
+    second: hair_07
   - first:
       213: -8156693220700480944
-    second: roguelikeChar_transparent_24
+    second: hat_00
   - first:
       213: 8618037540501380708
-    second: roguelikeChar_transparent_25
+    second: hat_01
   - first:
       213: -5083435128925625379
-    second: roguelikeChar_transparent_26
+    second: hat_02
   - first:
       213: -2996312887958227662
-    second: roguelikeChar_transparent_27
+    second: hat_03
   - first:
       213: -8989991070032082210
-    second: roguelikeChar_transparent_28
+    second: shield_00
   - first:
       213: 404426978663851173
-    second: roguelikeChar_transparent_29
+    second: shield_01
   - first:
       213: 6843840826627451414
-    second: roguelikeChar_transparent_30
+    second: shield_02
   - first:
       213: 3883781236868782319
-    second: roguelikeChar_transparent_31
+    second: shield_03
   - first:
       213: 2994749646950312578
-    second: roguelikeChar_transparent_32
+    second: shield_04
   - first:
       213: -6562260918156049196
-    second: roguelikeChar_transparent_33
+    second: shield_05
   - first:
       213: 7499433305485123129
-    second: roguelikeChar_transparent_34
+    second: shield_06
   - first:
       213: 673879026328445780
-    second: roguelikeChar_transparent_35
+    second: shield_07
   - first:
       213: -2092917018372988255
-    second: roguelikeChar_transparent_36
+    second: melee_00
   - first:
       213: 2728650231278730744
-    second: roguelikeChar_transparent_37
+    second: melee_01
   - first:
       213: 2220677355330914621
-    second: roguelikeChar_transparent_38
+    second: melee_02
   - first:
       213: 156960326594356525
-    second: roguelikeChar_transparent_39
+    second: melee_03
   - first:
       213: -4215271292488652957
-    second: roguelikeChar_transparent_40
+    second: melee_04
   - first:
       213: 9064010441368632962
-    second: roguelikeChar_transparent_41
+    second: melee_05
   - first:
       213: -4654271973936305756
-    second: roguelikeChar_transparent_42
+    second: melee_06
   - first:
       213: 6791055106435660673
-    second: roguelikeChar_transparent_43
+    second: melee_07
   - first:
       213: 7952680148830132471
-    second: roguelikeChar_transparent_44
+    second: melee_08
   - first:
       213: -5599404106818466035
-    second: roguelikeChar_transparent_45
+    second: melee_09
   - first:
       213: -3525579251183738729
-    second: roguelikeChar_transparent_46
+    second: ranged_00
   - first:
       213: 6317009557671673395
-    second: roguelikeChar_transparent_47
+    second: ranged_01
   - first:
       213: 1140897508884023850
-    second: roguelikeChar_transparent_48
+    second: body_02
   - first:
       213: 4402086976253198102
-    second: roguelikeChar_transparent_49
+    second: body_03
   - first:
       213: 1501045915454456772
-    second: roguelikeChar_transparent_50
+    second: pants_01
   - first:
       213: -146784520314977075
-    second: roguelikeChar_transparent_51
+    second: shoes_01
   - first:
       213: 7556249715932374297
-    second: roguelikeChar_transparent_52
+    second: top_012
   - first:
       213: -5699031354005246679
-    second: roguelikeChar_transparent_53
+    second: top_013
   - first:
       213: 6961899845104690864
-    second: roguelikeChar_transparent_54
+    second: top_014
   - first:
       213: -4182144959828661037
-    second: roguelikeChar_transparent_55
+    second: top_015
   - first:
       213: -1192371832429779704
-    second: roguelikeChar_transparent_56
+    second: top_016
   - first:
       213: -5919030244353852881
-    second: roguelikeChar_transparent_57
+    second: top_017
   - first:
       213: 207514231300002710
-    second: roguelikeChar_transparent_58
+    second: top_018
   - first:
       213: 3765511987169681835
-    second: roguelikeChar_transparent_59
+    second: top_019
   - first:
       213: -3800037081967019231
-    second: roguelikeChar_transparent_60
+    second: top_020
   - first:
       213: 4704870840929932723
-    second: roguelikeChar_transparent_61
+    second: top_021
   - first:
       213: -1998105784541474978
-    second: roguelikeChar_transparent_62
+    second: top_022
   - first:
       213: 7030925209401476577
-    second: roguelikeChar_transparent_63
+    second: top_023
   - first:
       213: 3561211701296181113
     second: roguelikeChar_transparent_64
@@ -220,16 +220,16 @@ TextureImporter:
     second: roguelikeChar_transparent_71
   - first:
       213: -4825260210688321501
-    second: roguelikeChar_transparent_72
+    second: hat_04
   - first:
       213: -6382030430083600532
-    second: roguelikeChar_transparent_73
+    second: hat_05
   - first:
       213: 6107595889713807301
-    second: roguelikeChar_transparent_74
+    second: hat_06
   - first:
       213: 6115967716850137979
-    second: roguelikeChar_transparent_75
+    second: hat_07
   - first:
       213: 2308401456393198744
     second: roguelikeChar_transparent_76
@@ -286,58 +286,58 @@ TextureImporter:
     second: roguelikeChar_transparent_93
   - first:
       213: -7339145697071571595
-    second: roguelikeChar_transparent_94
+    second: ranged_02
   - first:
       213: 8155109516686594846
-    second: roguelikeChar_transparent_95
+    second: ranged_03
   - first:
       213: 246045518220729998
-    second: roguelikeChar_transparent_96
+    second: body_04
   - first:
       213: -5632840987133619000
-    second: roguelikeChar_transparent_97
+    second: body_05
   - first:
       213: -8369974668244227227
-    second: roguelikeChar_transparent_98
+    second: pants_02
   - first:
       213: -7645664984151780488
-    second: roguelikeChar_transparent_99
+    second: shoes_02
   - first:
       213: -2249046373231751383
-    second: roguelikeChar_transparent_100
+    second: top_024
   - first:
       213: 7484759050707724712
-    second: roguelikeChar_transparent_101
+    second: top_025
   - first:
       213: 6364599309804462751
-    second: roguelikeChar_transparent_102
+    second: top_026
   - first:
       213: 2141044858694262566
-    second: roguelikeChar_transparent_103
+    second: top_027
   - first:
       213: 383672062218444970
-    second: roguelikeChar_transparent_104
+    second: top_028
   - first:
       213: 3943518062905296904
-    second: roguelikeChar_transparent_105
+    second: top_029
   - first:
       213: -5627626059723752749
-    second: roguelikeChar_transparent_106
+    second: top_030
   - first:
       213: 4116996123708778440
-    second: roguelikeChar_transparent_107
+    second: top_031
   - first:
       213: -3318549340731732596
-    second: roguelikeChar_transparent_108
+    second: top_032
   - first:
       213: 6579053670280243926
-    second: roguelikeChar_transparent_109
+    second: top_033
   - first:
       213: -3138402194838561015
-    second: roguelikeChar_transparent_110
+    second: top_034
   - first:
       213: -3434095904437901019
-    second: roguelikeChar_transparent_111
+    second: top_035
   - first:
       213: 3422004762469392329
     second: roguelikeChar_transparent_112
@@ -364,16 +364,16 @@ TextureImporter:
     second: roguelikeChar_transparent_119
   - first:
       213: 5031233615034709957
-    second: roguelikeChar_transparent_120
+    second: hat_08
   - first:
       213: -1207725718554518139
-    second: roguelikeChar_transparent_121
+    second: hat_09
   - first:
       213: 1162236620179427137
-    second: roguelikeChar_transparent_122
+    second: hat_10
   - first:
       213: 8155894712896411420
-    second: roguelikeChar_transparent_123
+    second: hat_11
   - first:
       213: -5329401516064264123
     second: roguelikeChar_transparent_124
@@ -418,58 +418,58 @@ TextureImporter:
     second: roguelikeChar_transparent_137
   - first:
       213: 1700234163063217220
-    second: roguelikeChar_transparent_138
+    second: ranged_04
   - first:
       213: 3151394059896407797
-    second: roguelikeChar_transparent_139
+    second: ranged_05
   - first:
       213: -2338150300481368218
-    second: roguelikeChar_transparent_140
+    second: body_06
   - first:
       213: 9148166774021978461
-    second: roguelikeChar_transparent_141
+    second: body_07
   - first:
       213: -8032491827545790980
-    second: roguelikeChar_transparent_142
+    second: pants_03
   - first:
       213: 1638012659646772393
-    second: roguelikeChar_transparent_143
+    second: shoes_03
   - first:
       213: 595045557752139348
-    second: roguelikeChar_transparent_144
+    second: top_36
   - first:
       213: -41235724419586603
-    second: roguelikeChar_transparent_145
+    second: top_37
   - first:
       213: 6496109881459219846
-    second: roguelikeChar_transparent_146
+    second: top_38
   - first:
       213: 5755474091443442161
-    second: roguelikeChar_transparent_147
+    second: top_39
   - first:
       213: -4449996053768385300
-    second: roguelikeChar_transparent_148
+    second: top_40
   - first:
       213: 3255163335517808978
-    second: roguelikeChar_transparent_149
+    second: top_41
   - first:
       213: 5322893879577607818
-    second: roguelikeChar_transparent_150
+    second: top_42
   - first:
       213: -3994341544765678976
-    second: roguelikeChar_transparent_151
+    second: top_43
   - first:
       213: 1383047483188980860
-    second: roguelikeChar_transparent_152
+    second: top_44
   - first:
       213: -7030261566604943248
-    second: roguelikeChar_transparent_153
+    second: top_45
   - first:
       213: 750013748112623773
-    second: roguelikeChar_transparent_154
+    second: top_46
   - first:
       213: 5102780994734742669
-    second: roguelikeChar_transparent_155
+    second: top_47
   - first:
       213: 3877229589434481971
     second: roguelikeChar_transparent_156
@@ -562,52 +562,52 @@ TextureImporter:
     second: roguelikeChar_transparent_185
   - first:
       213: -7412498243864045708
-    second: roguelikeChar_transparent_186
+    second: ranged_06
   - first:
       213: -2005026226259201106
-    second: roguelikeChar_transparent_187
+    second: ranged_07
   - first:
       213: 6789211589194484356
-    second: roguelikeChar_transparent_188
+    second: shoes_04
   - first:
       213: 8635486106890391779
-    second: roguelikeChar_transparent_189
+    second: shoes_05
   - first:
       213: -5071917328319467127
-    second: roguelikeChar_transparent_190
+    second: top_48
   - first:
       213: 8872412693658788796
-    second: roguelikeChar_transparent_191
+    second: top_49
   - first:
       213: -6528668969445462710
-    second: roguelikeChar_transparent_192
+    second: top_50
   - first:
       213: 1021969343768294325
-    second: roguelikeChar_transparent_193
+    second: top_51
   - first:
       213: 6342123147299320549
-    second: roguelikeChar_transparent_194
+    second: top_52
   - first:
       213: -3297586043866034983
-    second: roguelikeChar_transparent_195
+    second: rogueliktop_53
   - first:
       213: 1543063555165018590
-    second: roguelikeChar_transparent_196
+    second: top_54
   - first:
       213: 2716895034091393999
-    second: roguelikeChar_transparent_197
+    second: top_55
   - first:
       213: -823688838642867990
-    second: roguelikeChar_transparent_198
+    second: top_56
   - first:
       213: -6415400990687527979
-    second: roguelikeChar_transparent_199
+    second: top_57
   - first:
       213: -7541193270527567349
-    second: roguelikeChar_transparent_200
+    second: top_58
   - first:
       213: 296799791121595380
-    second: roguelikeChar_transparent_201
+    second: top_59
   - first:
       213: -6895828790863818906
     second: roguelikeChar_transparent_202
@@ -700,10 +700,10 @@ TextureImporter:
     second: roguelikeChar_transparent_231
   - first:
       213: -1807866420194309017
-    second: roguelikeChar_transparent_232
+    second: ranged_08
   - first:
       213: -6261957901055695033
-    second: roguelikeChar_transparent_233
+    second: ranged_09
   - first:
       213: -1021377366950326988
     second: roguelikeChar_transparent_234
@@ -712,46 +712,46 @@ TextureImporter:
     second: roguelikeChar_transparent_235
   - first:
       213: 95300849705831045
-    second: roguelikeChar_transparent_236
+    second: pants_04
   - first:
       213: -7105697101075109609
-    second: roguelikeChar_transparent_237
+    second: shoes_06
   - first:
       213: 6072250847447519309
-    second: roguelikeChar_transparent_238
+    second: top_60
   - first:
       213: 3137371309404761635
-    second: roguelikeChar_transparent_239
+    second: top_61
   - first:
       213: 6817317526159209961
-    second: roguelikeChar_transparent_240
+    second: top_62
   - first:
       213: -3819558832416113619
-    second: roguelikeChar_transparent_241
+    second: top_63
   - first:
       213: -8024436084261386431
-    second: roguelikeChar_transparent_242
+    second: top_64
   - first:
       213: 3026158615783458078
-    second: roguelikeChar_transparent_243
+    second: top_65
   - first:
       213: -8293920602030296549
-    second: roguelikeChar_transparent_244
+    second: top_66
   - first:
       213: 8835341587003100347
-    second: roguelikeChar_transparent_245
+    second: top_67
   - first:
       213: -8925399636706838589
-    second: roguelikeChar_transparent_246
+    second: top_68
   - first:
       213: 4349600800613628404
-    second: roguelikeChar_transparent_247
+    second: top_69
   - first:
       213: 7781354792699010793
-    second: roguelikeChar_transparent_248
+    second: top_70
   - first:
       213: -8000296542052012947
-    second: roguelikeChar_transparent_249
+    second: top_71
   - first:
       213: 3191126384467524515
     second: roguelikeChar_transparent_250
@@ -838,31 +838,31 @@ TextureImporter:
     second: roguelikeChar_transparent_277
   - first:
       213: -738084381853023074
-    second: roguelikeChar_transparent_278
+    second: pants_05
   - first:
       213: 9097032686823585040
-    second: roguelikeChar_transparent_279
+    second: shoes_07
   - first:
       213: -7918027870278135304
-    second: roguelikeChar_transparent_280
+    second: top_72
   - first:
       213: 1451959739954741841
-    second: roguelikeChar_transparent_281
+    second: top_73
   - first:
       213: 5201518048208207776
-    second: roguelikeChar_transparent_282
+    second: top_74
   - first:
       213: -1216740824874361976
-    second: roguelikeChar_transparent_283
+    second: top_75
   - first:
       213: 4910894210943528867
-    second: roguelikeChar_transparent_284
+    second: top_76
   - first:
       213: -3297212185145446590
-    second: roguelikeChar_transparent_285
+    second: top_77
   - first:
       213: -7263239061454058043
-    second: roguelikeChar_transparent_286
+    second: top_78
   - first:
       213: 7057676095627367645
     second: roguelikeChar_transparent_287
@@ -976,10 +976,10 @@ TextureImporter:
     second: roguelikeChar_transparent_323
   - first:
       213: -1771743465032305465
-    second: roguelikeChar_transparent_324
+    second: pants_06
   - first:
       213: 3619877003373037083
-    second: roguelikeChar_transparent_325
+    second: shoes_08
   - first:
       213: -2927371715187667813
     second: roguelikeChar_transparent_326
@@ -1114,10 +1114,10 @@ TextureImporter:
     second: roguelikeChar_transparent_369
   - first:
       213: -509475210952471328
-    second: roguelikeChar_transparent_370
+    second: pants_07
   - first:
       213: 7305450831679087157
-    second: roguelikeChar_transparent_371
+    second: shoes_09
   - first:
       213: -562517621304457477
     second: roguelikeChar_transparent_372
@@ -1228,10 +1228,10 @@ TextureImporter:
     second: roguelikeChar_transparent_407
   - first:
       213: -8094455898812646349
-    second: roguelikeChar_transparent_408
+    second: shoes_10
   - first:
       213: -4277524247997627085
-    second: roguelikeChar_transparent_409
+    second: shoes_11
   - first:
       213: -3415190932154974625
     second: roguelikeChar_transparent_410
@@ -1815,7 +1815,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roguelikeChar_transparent_0
+      name: body_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1836,7 +1836,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_1
+      name: body_01
       rect:
         serializedVersion: 2
         x: 17
@@ -1857,7 +1857,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_2
+      name: pants_00
       rect:
         serializedVersion: 2
         x: 51
@@ -1878,7 +1878,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_3
+      name: shoes_00
       rect:
         serializedVersion: 2
         x: 68
@@ -1899,7 +1899,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_4
+      name: top_000
       rect:
         serializedVersion: 2
         x: 102
@@ -1920,7 +1920,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_5
+      name: top_001
       rect:
         serializedVersion: 2
         x: 119
@@ -1941,7 +1941,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_6
+      name: top_002
       rect:
         serializedVersion: 2
         x: 136
@@ -1962,7 +1962,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_7
+      name: top_003
       rect:
         serializedVersion: 2
         x: 153
@@ -1983,7 +1983,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_8
+      name: top_004
       rect:
         serializedVersion: 2
         x: 170
@@ -2004,7 +2004,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_9
+      name: top_005
       rect:
         serializedVersion: 2
         x: 187
@@ -2025,7 +2025,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_10
+      name: top_006
       rect:
         serializedVersion: 2
         x: 204
@@ -2046,7 +2046,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_11
+      name: top_007
       rect:
         serializedVersion: 2
         x: 221
@@ -2067,7 +2067,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_12
+      name: top_008
       rect:
         serializedVersion: 2
         x: 238
@@ -2088,7 +2088,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_13
+      name: top_009
       rect:
         serializedVersion: 2
         x: 255
@@ -2109,7 +2109,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_14
+      name: top_010
       rect:
         serializedVersion: 2
         x: 272
@@ -2130,7 +2130,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_15
+      name: top_011
       rect:
         serializedVersion: 2
         x: 289
@@ -2151,7 +2151,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_16
+      name: hair_00
       rect:
         serializedVersion: 2
         x: 323
@@ -2172,7 +2172,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_17
+      name: hair_01
       rect:
         serializedVersion: 2
         x: 340
@@ -2193,7 +2193,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_18
+      name: hair_02
       rect:
         serializedVersion: 2
         x: 357
@@ -2214,7 +2214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_19
+      name: hair_03
       rect:
         serializedVersion: 2
         x: 374
@@ -2235,7 +2235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_20
+      name: hair_04
       rect:
         serializedVersion: 2
         x: 391
@@ -2256,7 +2256,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_21
+      name: hair_05
       rect:
         serializedVersion: 2
         x: 408
@@ -2277,7 +2277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_22
+      name: hair_06
       rect:
         serializedVersion: 2
         x: 425
@@ -2298,7 +2298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_23
+      name: hair_07
       rect:
         serializedVersion: 2
         x: 442
@@ -2319,7 +2319,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_24
+      name: hat_00
       rect:
         serializedVersion: 2
         x: 476
@@ -2340,7 +2340,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_25
+      name: hat_01
       rect:
         serializedVersion: 2
         x: 493
@@ -2361,7 +2361,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_26
+      name: hat_02
       rect:
         serializedVersion: 2
         x: 510
@@ -2382,7 +2382,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_27
+      name: hat_03
       rect:
         serializedVersion: 2
         x: 527
@@ -2403,7 +2403,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_28
+      name: shield_00
       rect:
         serializedVersion: 2
         x: 561
@@ -2424,7 +2424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_29
+      name: shield_01
       rect:
         serializedVersion: 2
         x: 578
@@ -2445,7 +2445,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_30
+      name: shield_02
       rect:
         serializedVersion: 2
         x: 595
@@ -2466,7 +2466,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_31
+      name: shield_03
       rect:
         serializedVersion: 2
         x: 612
@@ -2487,7 +2487,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_32
+      name: shield_04
       rect:
         serializedVersion: 2
         x: 629
@@ -2508,7 +2508,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_33
+      name: shield_05
       rect:
         serializedVersion: 2
         x: 646
@@ -2529,7 +2529,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_34
+      name: shield_06
       rect:
         serializedVersion: 2
         x: 663
@@ -2550,7 +2550,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_35
+      name: shield_07
       rect:
         serializedVersion: 2
         x: 680
@@ -2571,7 +2571,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_36
+      name: melee_00
       rect:
         serializedVersion: 2
         x: 714
@@ -2592,7 +2592,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_37
+      name: melee_01
       rect:
         serializedVersion: 2
         x: 731
@@ -2613,7 +2613,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_38
+      name: melee_02
       rect:
         serializedVersion: 2
         x: 748
@@ -2634,7 +2634,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_39
+      name: melee_03
       rect:
         serializedVersion: 2
         x: 765
@@ -2655,7 +2655,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_40
+      name: melee_04
       rect:
         serializedVersion: 2
         x: 782
@@ -2676,7 +2676,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_41
+      name: melee_05
       rect:
         serializedVersion: 2
         x: 799
@@ -2697,7 +2697,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_42
+      name: melee_06
       rect:
         serializedVersion: 2
         x: 816
@@ -2718,7 +2718,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_43
+      name: melee_07
       rect:
         serializedVersion: 2
         x: 833
@@ -2739,7 +2739,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_44
+      name: melee_08
       rect:
         serializedVersion: 2
         x: 850
@@ -2760,7 +2760,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_45
+      name: melee_09
       rect:
         serializedVersion: 2
         x: 867
@@ -2781,7 +2781,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_46
+      name: ranged_00
       rect:
         serializedVersion: 2
         x: 884
@@ -2802,7 +2802,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_47
+      name: ranged_01
       rect:
         serializedVersion: 2
         x: 901
@@ -2823,7 +2823,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_48
+      name: body_02
       rect:
         serializedVersion: 2
         x: 0
@@ -2844,7 +2844,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_49
+      name: body_03
       rect:
         serializedVersion: 2
         x: 17
@@ -2865,7 +2865,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_50
+      name: pants_01
       rect:
         serializedVersion: 2
         x: 51
@@ -2886,7 +2886,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_51
+      name: shoes_01
       rect:
         serializedVersion: 2
         x: 68
@@ -2907,7 +2907,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_52
+      name: top_012
       rect:
         serializedVersion: 2
         x: 102
@@ -2928,7 +2928,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_53
+      name: top_013
       rect:
         serializedVersion: 2
         x: 119
@@ -2949,7 +2949,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_54
+      name: top_014
       rect:
         serializedVersion: 2
         x: 136
@@ -2970,7 +2970,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_55
+      name: top_015
       rect:
         serializedVersion: 2
         x: 153
@@ -2991,7 +2991,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_56
+      name: top_016
       rect:
         serializedVersion: 2
         x: 170
@@ -3012,7 +3012,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_57
+      name: top_017
       rect:
         serializedVersion: 2
         x: 187
@@ -3033,7 +3033,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_58
+      name: top_018
       rect:
         serializedVersion: 2
         x: 204
@@ -3054,7 +3054,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_59
+      name: top_019
       rect:
         serializedVersion: 2
         x: 221
@@ -3075,7 +3075,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_60
+      name: top_020
       rect:
         serializedVersion: 2
         x: 238
@@ -3096,7 +3096,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_61
+      name: top_021
       rect:
         serializedVersion: 2
         x: 255
@@ -3117,7 +3117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_62
+      name: top_022
       rect:
         serializedVersion: 2
         x: 272
@@ -3138,7 +3138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_63
+      name: top_023
       rect:
         serializedVersion: 2
         x: 289
@@ -3327,7 +3327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_72
+      name: hat_04
       rect:
         serializedVersion: 2
         x: 476
@@ -3348,7 +3348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_73
+      name: hat_05
       rect:
         serializedVersion: 2
         x: 493
@@ -3369,7 +3369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_74
+      name: hat_06
       rect:
         serializedVersion: 2
         x: 510
@@ -3390,7 +3390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_75
+      name: hat_07
       rect:
         serializedVersion: 2
         x: 527
@@ -3789,7 +3789,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_94
+      name: ranged_02
       rect:
         serializedVersion: 2
         x: 884
@@ -3810,7 +3810,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_95
+      name: ranged_03
       rect:
         serializedVersion: 2
         x: 901
@@ -3831,7 +3831,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_96
+      name: body_04
       rect:
         serializedVersion: 2
         x: 0
@@ -3852,7 +3852,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_97
+      name: body_05
       rect:
         serializedVersion: 2
         x: 17
@@ -3873,7 +3873,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_98
+      name: pants_02
       rect:
         serializedVersion: 2
         x: 51
@@ -3894,7 +3894,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_99
+      name: shoes_02
       rect:
         serializedVersion: 2
         x: 68
@@ -3915,7 +3915,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_100
+      name: top_024
       rect:
         serializedVersion: 2
         x: 102
@@ -3936,7 +3936,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_101
+      name: top_025
       rect:
         serializedVersion: 2
         x: 119
@@ -3957,7 +3957,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_102
+      name: top_026
       rect:
         serializedVersion: 2
         x: 136
@@ -3978,7 +3978,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_103
+      name: top_027
       rect:
         serializedVersion: 2
         x: 153
@@ -3999,7 +3999,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_104
+      name: top_028
       rect:
         serializedVersion: 2
         x: 170
@@ -4020,7 +4020,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_105
+      name: top_029
       rect:
         serializedVersion: 2
         x: 187
@@ -4041,7 +4041,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_106
+      name: top_030
       rect:
         serializedVersion: 2
         x: 204
@@ -4062,7 +4062,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_107
+      name: top_031
       rect:
         serializedVersion: 2
         x: 221
@@ -4083,7 +4083,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_108
+      name: top_032
       rect:
         serializedVersion: 2
         x: 238
@@ -4104,7 +4104,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_109
+      name: top_033
       rect:
         serializedVersion: 2
         x: 255
@@ -4125,7 +4125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_110
+      name: top_034
       rect:
         serializedVersion: 2
         x: 272
@@ -4146,7 +4146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_111
+      name: top_035
       rect:
         serializedVersion: 2
         x: 289
@@ -4335,7 +4335,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_120
+      name: hat_08
       rect:
         serializedVersion: 2
         x: 476
@@ -4356,7 +4356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_121
+      name: hat_09
       rect:
         serializedVersion: 2
         x: 493
@@ -4377,7 +4377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_122
+      name: hat_10
       rect:
         serializedVersion: 2
         x: 510
@@ -4398,7 +4398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_123
+      name: hat_11
       rect:
         serializedVersion: 2
         x: 527
@@ -4713,7 +4713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_138
+      name: ranged_04
       rect:
         serializedVersion: 2
         x: 884
@@ -4734,7 +4734,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_139
+      name: ranged_05
       rect:
         serializedVersion: 2
         x: 901
@@ -4755,7 +4755,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_140
+      name: body_06
       rect:
         serializedVersion: 2
         x: 0
@@ -4776,7 +4776,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_141
+      name: body_07
       rect:
         serializedVersion: 2
         x: 17
@@ -4797,7 +4797,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_142
+      name: pants_03
       rect:
         serializedVersion: 2
         x: 51
@@ -4818,7 +4818,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_143
+      name: shoes_03
       rect:
         serializedVersion: 2
         x: 68
@@ -4839,7 +4839,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_144
+      name: top_36
       rect:
         serializedVersion: 2
         x: 102
@@ -4860,7 +4860,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_145
+      name: top_37
       rect:
         serializedVersion: 2
         x: 119
@@ -4881,7 +4881,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_146
+      name: top_38
       rect:
         serializedVersion: 2
         x: 136
@@ -4902,7 +4902,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_147
+      name: top_39
       rect:
         serializedVersion: 2
         x: 153
@@ -4923,7 +4923,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_148
+      name: top_40
       rect:
         serializedVersion: 2
         x: 170
@@ -4944,7 +4944,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_149
+      name: top_41
       rect:
         serializedVersion: 2
         x: 187
@@ -4965,7 +4965,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_150
+      name: top_42
       rect:
         serializedVersion: 2
         x: 204
@@ -4986,7 +4986,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_151
+      name: top_43
       rect:
         serializedVersion: 2
         x: 221
@@ -5007,7 +5007,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_152
+      name: top_44
       rect:
         serializedVersion: 2
         x: 238
@@ -5028,7 +5028,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_153
+      name: top_45
       rect:
         serializedVersion: 2
         x: 255
@@ -5049,7 +5049,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_154
+      name: top_46
       rect:
         serializedVersion: 2
         x: 272
@@ -5070,7 +5070,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_155
+      name: top_47
       rect:
         serializedVersion: 2
         x: 289
@@ -5721,7 +5721,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_186
+      name: ranged_06
       rect:
         serializedVersion: 2
         x: 884
@@ -5742,7 +5742,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_187
+      name: ranged_07
       rect:
         serializedVersion: 2
         x: 901
@@ -5763,7 +5763,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_188
+      name: shoes_04
       rect:
         serializedVersion: 2
         x: 51
@@ -5784,7 +5784,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_189
+      name: shoes_05
       rect:
         serializedVersion: 2
         x: 68
@@ -5805,7 +5805,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_190
+      name: top_48
       rect:
         serializedVersion: 2
         x: 102
@@ -5826,7 +5826,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_191
+      name: top_49
       rect:
         serializedVersion: 2
         x: 119
@@ -5847,7 +5847,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_192
+      name: top_50
       rect:
         serializedVersion: 2
         x: 136
@@ -5868,7 +5868,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_193
+      name: top_51
       rect:
         serializedVersion: 2
         x: 153
@@ -5889,7 +5889,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_194
+      name: top_52
       rect:
         serializedVersion: 2
         x: 170
@@ -5910,7 +5910,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_195
+      name: rogueliktop_53
       rect:
         serializedVersion: 2
         x: 187
@@ -5931,7 +5931,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_196
+      name: top_54
       rect:
         serializedVersion: 2
         x: 204
@@ -5952,7 +5952,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_197
+      name: top_55
       rect:
         serializedVersion: 2
         x: 221
@@ -5973,7 +5973,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_198
+      name: top_56
       rect:
         serializedVersion: 2
         x: 238
@@ -5994,7 +5994,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_199
+      name: top_57
       rect:
         serializedVersion: 2
         x: 255
@@ -6015,7 +6015,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_200
+      name: top_58
       rect:
         serializedVersion: 2
         x: 272
@@ -6036,7 +6036,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_201
+      name: top_59
       rect:
         serializedVersion: 2
         x: 289
@@ -6687,7 +6687,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_232
+      name: ranged_08
       rect:
         serializedVersion: 2
         x: 884
@@ -6708,7 +6708,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_233
+      name: ranged_09
       rect:
         serializedVersion: 2
         x: 901
@@ -6771,7 +6771,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_236
+      name: pants_04
       rect:
         serializedVersion: 2
         x: 51
@@ -6792,7 +6792,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_237
+      name: shoes_06
       rect:
         serializedVersion: 2
         x: 68
@@ -6813,7 +6813,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_238
+      name: top_60
       rect:
         serializedVersion: 2
         x: 102
@@ -6834,7 +6834,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_239
+      name: top_61
       rect:
         serializedVersion: 2
         x: 119
@@ -6855,7 +6855,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_240
+      name: top_62
       rect:
         serializedVersion: 2
         x: 136
@@ -6876,7 +6876,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_241
+      name: top_63
       rect:
         serializedVersion: 2
         x: 153
@@ -6897,7 +6897,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_242
+      name: top_64
       rect:
         serializedVersion: 2
         x: 170
@@ -6918,7 +6918,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_243
+      name: top_65
       rect:
         serializedVersion: 2
         x: 187
@@ -6939,7 +6939,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_244
+      name: top_66
       rect:
         serializedVersion: 2
         x: 204
@@ -6960,7 +6960,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_245
+      name: top_67
       rect:
         serializedVersion: 2
         x: 221
@@ -6981,7 +6981,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_246
+      name: top_68
       rect:
         serializedVersion: 2
         x: 238
@@ -7002,7 +7002,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_247
+      name: top_69
       rect:
         serializedVersion: 2
         x: 255
@@ -7023,7 +7023,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_248
+      name: top_70
       rect:
         serializedVersion: 2
         x: 272
@@ -7044,7 +7044,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_249
+      name: top_71
       rect:
         serializedVersion: 2
         x: 289
@@ -7653,7 +7653,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_278
+      name: pants_05
       rect:
         serializedVersion: 2
         x: 51
@@ -7674,7 +7674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_279
+      name: shoes_07
       rect:
         serializedVersion: 2
         x: 68
@@ -7695,7 +7695,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_280
+      name: top_72
       rect:
         serializedVersion: 2
         x: 102
@@ -7716,7 +7716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_281
+      name: top_73
       rect:
         serializedVersion: 2
         x: 119
@@ -7737,7 +7737,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_282
+      name: top_74
       rect:
         serializedVersion: 2
         x: 136
@@ -7758,7 +7758,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_283
+      name: top_75
       rect:
         serializedVersion: 2
         x: 153
@@ -7779,7 +7779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_284
+      name: top_76
       rect:
         serializedVersion: 2
         x: 170
@@ -7800,7 +7800,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_285
+      name: top_77
       rect:
         serializedVersion: 2
         x: 187
@@ -7821,7 +7821,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_286
+      name: top_78
       rect:
         serializedVersion: 2
         x: 204
@@ -8619,7 +8619,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_324
+      name: pants_06
       rect:
         serializedVersion: 2
         x: 51
@@ -8640,7 +8640,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_325
+      name: shoes_08
       rect:
         serializedVersion: 2
         x: 68
@@ -9585,7 +9585,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_370
+      name: pants_07
       rect:
         serializedVersion: 2
         x: 51
@@ -9606,7 +9606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_371
+      name: shoes_09
       rect:
         serializedVersion: 2
         x: 68
@@ -10383,7 +10383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_408
+      name: shoes_10
       rect:
         serializedVersion: 2
         x: 51
@@ -10404,7 +10404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeChar_transparent_409
+      name: shoes_11
       rect:
         serializedVersion: 2
         x: 68

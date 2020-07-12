@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97cd978d346a8624394e466b3041fb66, type: 3}
+  m_Name: Pants
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  Cleared: {fileID: 0}
+  Added: {fileID: 0}
+  Removed: {fileID: 0}
+  list:
+  - {fileID: 3159422829882685646, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
+  - {fileID: 1501045915454456772, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
+  - {fileID: -8369974668244227227, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
+  - {fileID: -8032491827545790980, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
+  - {fileID: 95300849705831045, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
+  - {fileID: -738084381853023074, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
+  - {fileID: -1771743465032305465, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
+  - {fileID: -509475210952471328, guid: 7cb683c3a02c63243b3b84680fc93114, type: 3}
