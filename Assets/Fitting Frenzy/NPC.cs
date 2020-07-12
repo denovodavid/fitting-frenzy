@@ -26,9 +26,14 @@ public class NPC : MonoBehaviour
 
     private void OnEnable()
     {
+        InitBody();
+        if (!nakey) Dress();
+    }
+
+    void InitBody()
+    {
         body.sprite = GetRandomSpriteFromList(bodiesList);
         hair.sprite = Random.value < 0.9f ? GetRandomSpriteFromList(hairsList) : null;
-        if (!nakey) Dress();
     }
 
     public void Dress()
@@ -56,8 +61,21 @@ public class NPC : MonoBehaviour
         top.sprite = pants.sprite = shoes.sprite = hat.sprite = weapon.sprite = shield.sprite = null;
     }
 
+    public void ToggleDress()
+    {
+        if (!nakey) Undress(); else Dress();
+    }
+
     Sprite GetRandomSpriteFromList(SpriteValueList list)
     {
         return list.Get(Random.Range(0, list.Count - 1));
     }
+
+    private void OnValidate()
+    {
+        InitBody();
+        if (nakey) Undress(); else Dress();
+    }
+
+    public bool IsNakey() => nakey;
 }

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityAtoms.BaseAtoms;
+using System.Collections.Generic;
 
 public class PlayerCharacter : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class PlayerCharacter : MonoBehaviour
     public FloatReference dashDistance;
     public FloatReference dashDuration;
     public FloatReference controlMeter;
+    public FloatReference frenzyRadius;
+    public IntReference dressedCount;
 
     Rigidbody2D rb;
 
@@ -17,9 +20,17 @@ public class PlayerCharacter : MonoBehaviour
     Vector3 dashEndPos;
     float dashTime = 1f;
 
+    bool frenzied = false;
+    List<Collider2D> frenzyColliders = new List<Collider2D>();
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    void OutOfControl(float value)
+    {
+        if (value <= 0f) Frenzy();
     }
 
     void FixedUpdate()
@@ -38,14 +49,15 @@ public class PlayerCharacter : MonoBehaviour
         }
 
         controlMeter.Value -= Time.deltaTime;
+        if (!frenzied && controlMeter.Value <= 0f) Frenzy();
     }
 
-    public void OnMove(InputValue value)
+    void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
     }
 
-    public void OnDash(InputValue value)
+    void OnDash(InputValue value)
     {
         dashStartPos = transform.position;
         var dashDir = moveInput.normalized;
@@ -54,4 +66,36 @@ public class PlayerCharacter : MonoBehaviour
     }
 
     bool isDashing() => dashTime < 1f;
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, frenzyRadius.Value);
+    }
+
+    void OnFrenzy()
+    {
+        Frenzy();
+    }
+
+    void Frenzy()
+    {
+        frenzied = true;
+        Physics2D.OverlapCircle(transform.position, frenzyRadius.Value, new ContactFilter2D(), frenzyColliders);
+        foreach (var col in frenzyColliders)
+        {
+            if (col.TryGetComponent<NPC>(out var npc))
+            {
+                if (npc.IsNakey()) dressedCount.Value++;
+                npc.ToggleDress();
+            }
+        }
+
+        int nakeyCount = 0;
+        foreach (var npc in FindObjectsOfType<NPC>())
+        {
+            if (npc.IsNakey()) nakeyCount++;
+        }
+        Debug.Log("Nakey: " + nakeyCount);
+    }
 }
