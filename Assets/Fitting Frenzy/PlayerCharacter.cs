@@ -2,6 +2,8 @@
 using UnityEngine.InputSystem;
 using UnityAtoms.BaseAtoms;
 using System.Collections.Generic;
+using DG.Tweening;
+using System.Linq;
 
 public class PlayerCharacter : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class PlayerCharacter : MonoBehaviour
     public FloatReference controlMeter;
     public FloatReference frenzyRadius;
     public IntReference dressedCount;
+    public GameObject clothePrefab;
 
     Rigidbody2D rb;
 
@@ -81,21 +84,56 @@ public class PlayerCharacter : MonoBehaviour
     void Frenzy()
     {
         frenzied = true;
-        Physics2D.OverlapCircle(transform.position, frenzyRadius.Value, new ContactFilter2D(), frenzyColliders);
+
+        Sequence seq = DOTween.Sequence();
+
+        var colCount = Physics2D.OverlapCircle(transform.position, frenzyRadius.Value, new ContactFilter2D(), frenzyColliders);
         foreach (var col in frenzyColliders)
         {
             if (col.TryGetComponent<NPC>(out var npc))
             {
-                if (npc.IsNakey()) dressedCount.Value++;
-                npc.ToggleDress();
+                npc.StopFollow();
+                npc.GetComponent<Rigidbody2D>().isKinematic = true;
+                seq.AppendCallback(() =>
+                {
+                    npc.GetComponent<Rigidbody2D>().isKinematic = false;
+                    Time.timeScale = 1f;
+                });
+                seq.Append(rb.DOMove(npc.transform.position, 0.2f));
+                seq.AppendCallback(() =>
+                {
+                    Time.timeScale = 0.2f;
+
+                    void SpawnClothe(UnityAtoms.SpriteValueList list)
+                    {
+                        var clothe = Instantiate(clothePrefab, npc.transform.position, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
+                        clothe.GetComponent<SpriteRenderer>().sprite = NPC.GetRandomSpriteFromList(list);
+                        clothe.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized * 40f, ForceMode2D.Impulse);
+                        clothe.GetComponent<Rigidbody2D>().AddTorque(Random.Range(-1f, 1f) * 5f, ForceMode2D.Impulse);
+                    };
+
+                    SpawnClothe(npc.topsList);
+                    SpawnClothe(npc.hatsList);
+                    SpawnClothe(npc.meleeWeaponsList);
+                    SpawnClothe(npc.pantsList);
+                    SpawnClothe(npc.shieldsList);
+
+                    if (npc.IsNakey()) dressedCount.Value++;
+                    npc.ToggleDress();
+                });
+                seq.AppendInterval(0.1f);
             }
         }
 
-        int nakeyCount = 0;
-        foreach (var npc in FindObjectsOfType<NPC>())
+        seq.AppendCallback(() =>
         {
-            if (npc.IsNakey()) nakeyCount++;
-        }
-        Debug.Log("Nakey: " + nakeyCount);
+            Time.timeScale = 1f;
+            int nakeyCount = 0;
+            foreach (var npc in FindObjectsOfType<NPC>())
+            {
+                if (npc.IsNakey()) nakeyCount++;
+            }
+            Debug.Log("Nakey: " + nakeyCount);
+        });
     }
 }

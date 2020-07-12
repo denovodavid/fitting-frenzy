@@ -163,10 +163,17 @@ MonoBehaviour:
     _variableInstancer: {fileID: 0}
   frenzyRadius:
     _usage: 0
-    _value: 7
+    _value: 5
     _constant: {fileID: 0}
     _variable: {fileID: 0}
     _variableInstancer: {fileID: 0}
+  dressedCount:
+    _usage: 0
+    _value: 0
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  clothePrefab: {fileID: 0}
 --- !u!70 &8879543904517012841
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

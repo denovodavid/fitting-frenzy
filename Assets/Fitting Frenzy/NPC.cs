@@ -1,26 +1,62 @@
 ﻿using UnityEngine;
 using UnityAtoms;
+using UnityAtoms.BaseAtoms;
 
 public class NPC : MonoBehaviour
 {
     [SerializeField] private bool nakey = false;
-    public float speed = 90;
+    public FloatReference speed;
+    public FloatReference startFollowRadius;
+    public FloatReference stopFollowRadius;
     public SpriteValueList bodiesList, topsList, pantsList, hairsList, shoesList, hatsList, meleeWeaponsList, rangedWeaponsList, shieldsList;
     public SpriteRenderer body, top, pants, hair, shoes, hat, weapon, shield;
 
     Rigidbody2D rb;
+    GameObject target;
+    Vector3 targetOffset;
+
+    bool follow = true;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void OnTriggerStay2D(Collider2D other)
+    private void Start()
     {
-        if (nakey && other.CompareTag("Player"))
+        GetComponent<CircleCollider2D>().radius = startFollowRadius.Value;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            Vector2 dir = (other.transform.position - transform.position).normalized;
-            rb.AddForce(dir * speed);
+            target = other.gameObject;
+            targetOffset = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f).normalized;
+            GetComponent<CircleCollider2D>().radius = stopFollowRadius.Value;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == target)
+        {
+            target = null;
+            GetComponent<CircleCollider2D>().radius = startFollowRadius.Value;
+        }
+    }
+
+    void MoveTowards(Vector3 position)
+    {
+        Vector2 dir = (position - transform.position).normalized;
+        rb.AddForce(dir * speed.Value);
+    }
+
+    private void FixedUpdate()
+    {
+        if (nakey && target != null && follow)
+        {
+            MoveTowards(target.transform.position + targetOffset);
         }
     }
 
@@ -28,6 +64,11 @@ public class NPC : MonoBehaviour
     {
         InitBody();
         if (!nakey) Dress();
+    }
+
+    public void StopFollow()
+    {
+        follow = false;
     }
 
     void InitBody()
@@ -66,7 +107,7 @@ public class NPC : MonoBehaviour
         if (!nakey) Undress(); else Dress();
     }
 
-    Sprite GetRandomSpriteFromList(SpriteValueList list)
+    public static Sprite GetRandomSpriteFromList(SpriteValueList list)
     {
         return list.Get(Random.Range(0, list.Count - 1));
     }
@@ -78,4 +119,21 @@ public class NPC : MonoBehaviour
     }
 
     public bool IsNakey() => nakey;
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        if (target != null)
+        {
+            Gizmos.DrawSphere(target.transform.position + targetOffset, 0.25f);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, startFollowRadius.Value);
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, stopFollowRadius.Value);
+    }
 }

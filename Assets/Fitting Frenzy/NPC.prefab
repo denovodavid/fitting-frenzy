@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7105697101075109609, guid: 7cb683c3a02c63243b3b84680fc93114,
+  m_Sprite: {fileID: 8635486106890391779, guid: 7cb683c3a02c63243b3b84680fc93114,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -152,7 +152,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 2728650231278730744, guid: 7cb683c3a02c63243b3b84680fc93114,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -160,7 +161,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
 --- !u!1 &1232162238625436410
@@ -172,7 +173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1232162238625436390}
-  - component: {fileID: 1232162238625436388}
+  - component: {fileID: -1090523356276668191}
   - component: {fileID: 1232162238625436391}
   - component: {fileID: 1232162238625436411}
   - component: {fileID: 1232162238625436384}
@@ -206,8 +207,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1232162238625436388
-CircleCollider2D:
+--- !u!70 &-1090523356276668191
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -220,8 +221,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.5}
-  serializedVersion: 2
-  m_Radius: 0.4
+  m_Size: {x: 0.8, y: 0.8}
+  m_Direction: 1
 --- !u!50 &1232162238625436391
 Rigidbody2D:
   serializedVersion: 4
@@ -256,7 +257,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.5}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 5
 --- !u!114 &1232162238625436384
@@ -272,7 +273,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nakey: 0
-  speed: 70
+  speed:
+    _usage: 0
+    _value: 70
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  startFollowRadius:
+    _usage: 0
+    _value: 3
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  stopFollowRadius:
+    _usage: 0
+    _value: 6
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
   bodiesList: {fileID: 11400000, guid: 1735d5fe34dced24096371dd2db31833, type: 2}
   topsList: {fileID: 11400000, guid: 41577a5142924034289bc1d13386131b, type: 2}
   pantsList: {fileID: 11400000, guid: 89f1a1dcf30819c40a9263bc47207708, type: 2}
@@ -452,7 +470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -738084381853023074, guid: 7cb683c3a02c63243b3b84680fc93114,
+  m_Sprite: {fileID: -8369974668244227227, guid: 7cb683c3a02c63243b3b84680fc93114,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -534,7 +552,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7117352459926733294, guid: 7cb683c3a02c63243b3b84680fc93114,
+  m_Sprite: {fileID: 1140897508884023850, guid: 7cb683c3a02c63243b3b84680fc93114,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -616,7 +634,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4309011525524865823, guid: 7cb683c3a02c63243b3b84680fc93114,
+  m_Sprite: {fileID: 3082253163282208733, guid: 7cb683c3a02c63243b3b84680fc93114,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -779,7 +797,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7911691683452094547, guid: 7cb683c3a02c63243b3b84680fc93114,
+  m_Sprite: {fileID: 6293024272638629757, guid: 7cb683c3a02c63243b3b84680fc93114,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
