@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.mambojambostudios.unity-atoms-base-atoms": "4.2.1",
+    "com.mambojambostudios.unity-atoms-core": "4.2.1",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.spriteshape": "3.0.12",
     "com.unity.2d.tilemap": "1.0.0",
@@ -43,8 +45,7 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
-    "com.mambojambostudios.unity-atoms-core": "4.2.1",
-    "com.mambojambostudios.unity-atoms-base-atoms": "4.2.1"
+    "com.unity.2d.tilemap.extras": "1.4.0"
   },
   "scopedRegistries": [
     {
@@ -53,7 +54,8 @@
       "scopes": [
         "com.mambojambostudios.unity-atoms-base-atoms",
         "com.mambojambostudios.unity-atoms-core",
-        "com.openupm"
+        "com.openupm",
+        "com.unity.2d.tilemap.extras"
       ]
     }
   ]
