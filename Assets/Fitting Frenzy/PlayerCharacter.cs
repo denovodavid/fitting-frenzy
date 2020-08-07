@@ -4,6 +4,7 @@ using UnityAtoms.BaseAtoms;
 using System.Collections.Generic;
 using DG.Tweening;
 using System.Linq;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class PlayerCharacter : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class PlayerCharacter : MonoBehaviour
     public FloatReference frenzyRadius;
     public IntReference dressedCount;
     public GameObject clothePrefab;
+    public GameObject body;
+    public PixelPerfectCamera ppc;
+    public Cinemachine.CinemachineTargetGroup cinemachineTargetGroup;
+    public Cinemachine.CinemachineVirtualCamera vcam;
 
     Rigidbody2D rb;
 
@@ -26,9 +31,22 @@ public class PlayerCharacter : MonoBehaviour
     bool frenzied = false;
     List<Collider2D> frenzyColliders = new List<Collider2D>();
 
+    Sequence jumpSeq;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Start()
+    {
+        jumpSeq = body.transform
+            .DOLocalJump(Vector3.zero, 0.1f, 1, 0.2f)
+            .SetLoops(-1)
+            .OnStepComplete(() =>
+            {
+                if (moveInput == Vector2.zero) jumpSeq.Pause();
+            });
     }
 
     void OutOfControl(float value)
@@ -40,6 +58,8 @@ public class PlayerCharacter : MonoBehaviour
     {
         var moveVector = moveInput * speed.Value;
         rb.AddForce(moveVector);
+
+        if (moveInput != Vector2.zero) jumpSeq.Play();
 
         if (dashTime < 1f)
         {
@@ -86,14 +106,19 @@ public class PlayerCharacter : MonoBehaviour
         frenzied = true;
 
         Sequence seq = DOTween.Sequence();
+        seq.AppendCallback(() => vcam.GetCinemachineComponent<Cinemachine.CinemachineFramingTransposer>().m_GroupFramingMode = Cinemachine.CinemachineFramingTransposer.FramingMode.HorizontalAndVertical);
+        seq.AppendInterval(0.3f);
 
         var colCount = Physics2D.OverlapCircle(transform.position, frenzyRadius.Value, new ContactFilter2D(), frenzyColliders);
         foreach (var col in frenzyColliders)
         {
             if (col.TryGetComponent<NPC>(out var npc))
             {
+                cinemachineTargetGroup.AddMember(npc.transform, 1f, 0f);
                 npc.StopFollow();
-                npc.GetComponent<Rigidbody2D>().isKinematic = true;
+                var npcRb = npc.GetComponent<Rigidbody2D>();
+                npcRb.velocity = Vector2.zero;
+                npcRb.isKinematic = true;
                 seq.AppendCallback(() =>
                 {
                     npc.GetComponent<Rigidbody2D>().isKinematic = false;
@@ -121,12 +146,22 @@ public class PlayerCharacter : MonoBehaviour
                     if (npc.IsNakey()) dressedCount.Value++;
                     npc.ToggleDress();
                 });
-                seq.AppendInterval(0.1f);
+                seq.AppendCallback(() => {
+                    rb.DOMove(npc.transform.position /* + (npc.transform.position - transform.position).normalized * 0.01f */, 0.1f);
+                }).AppendInterval(0.1f);
+                seq.AppendCallback(() => cinemachineTargetGroup.RemoveMember(npc.transform));
             }
         }
 
+        // Sequence camSeq = DOTween.Sequence();
+        // camSeq.Append(DOTween.To(() => ppc.assetsPPU, (v) => ppc.assetsPPU = v, 128, 0.3f));
+        // camSeq.Append(DOTween.To(() => ppc.assetsPPU, (v) => ppc.assetsPPU = v, 16, seq.Duration()));
+
+        seq.AppendCallback(() => vcam.GetCinemachineComponent<Cinemachine.CinemachineFramingTransposer>().m_GroupFramingMode = Cinemachine.CinemachineFramingTransposer.FramingMode.None);
+
         seq.AppendCallback(() =>
         {
+
             Time.timeScale = 1f;
             int nakeyCount = 0;
             foreach (var npc in FindObjectsOfType<NPC>())
